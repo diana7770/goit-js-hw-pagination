@@ -1,6 +1,6 @@
 const listPhoto = document.querySelector(".list__photo");
 const btn = document.querySelector(".download");
-const btnSave = document.querySelector(".save");
+// const btnSave = document.querySelector(".save");
 const searchInput = document.querySelector(".search__input");
 const searchBtn = document.querySelector(".search__btn");
 
@@ -33,14 +33,11 @@ const createEl = (el) => {
 
 btn.addEventListener("click", loadPosts);
 
-btnSave.addEventListener("click", () => {
-  btn.removeEventListener("click", loadPosts);
-});
-
 searchBtn.addEventListener("click", () => {
   pageCurrent = 1;
   listPhoto.innerHTML = "";
   loadPosts();
+  searchInput.value = "";
 });
 
 getPictures();

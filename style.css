@@ -1,5 +1,5 @@
 body {
-  background-color: #fdbcbc;
+  background-color: #ecbdbd;
 }
 
 img {
@@ -21,19 +21,19 @@ li {
   width: 200px;
   height: 200px;
   display: flex;
-  /* background-color: #8fb4f881; */
+  background-color: #ffffff81;
   border-radius: 5px;
-  border: 1px solid #000000;
+  border: 1px solid #a8a2a271;
 }
 
-li:hover {
-  transform: scale(1.1);
+li:active {
+  transform: scale(1.2);
 }
 
 button {
   font-size: 15px;
   color: #ffdada;
-  background-color: #a503e6;
+  background-color: #2b033bd2;
   border: 2px solid #35072d;
   border-radius: 10px;
   padding: 10px 20px;
@@ -48,11 +48,27 @@ button:hover {
 
 .search__input {
   border-radius: 5px;
-  height: 20px;
+  width: 200px;
+  height: 25px;
+  margin-left: 980px;
 }
 
-.download,
-.save {
-  margin-left: 350px;
+.download {
+  margin-left: 600px;
   margin-top: 50px;
+}
+
+.button-scroll {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  background-color: #8a96bdb4;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

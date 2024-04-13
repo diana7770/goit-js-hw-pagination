@@ -6,12 +6,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <input class="search__input" type="text" placeholder="Search...." />
+  <body id="button-scroll">
+    <input
+      class="search__input"
+      type="text"
+      placeholder="знайти конкретну картинку..."
+    />
     <button class="search__btn">Знайти</button>
     <ul class="list__photo"></ul>
-    <button class="save">Зберегти</button>
+    <!-- <button class="save">Зберегти</button> -->
     <button class="download">Завантажити ще</button>
+    <a href="#button-scroll" class="button-scroll">↑</a>
+    <script>
+      AOS.init();
+    </script>
   </body>
   <script src="./index.js" type="module"></script>
 </html>
