@@ -21,7 +21,7 @@ li {
   width: 200px;
   height: 200px;
   display: flex;
-  background-color: #8fb4f881;
+  /* background-color: #8fb4f881; */
   border-radius: 5px;
   border: 1px solid #000000;
 }
@@ -44,4 +44,15 @@ button:hover {
   cursor: pointer;
   background-color: rgba(210, 140, 250, 0.726);
   transform: scale(1.1);
+}
+
+.search__input {
+  border-radius: 5px;
+  height: 20px;
+}
+
+.download,
+.save {
+  margin-left: 350px;
+  margin-top: 50px;
 }
